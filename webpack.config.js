@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  mode: "production",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
@@ -36,8 +37,6 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
-        parser: { dataUrlCondition: { maxSize: 3000 } },
-        use: ["file-loader"],
       },
     ],
   },
