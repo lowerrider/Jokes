@@ -28,17 +28,15 @@ module.exports = {
         use: ["babel-loader"],
       },
       {
-        // test: /\.(sa|sc|c)ss$/,
         test: /\.(scss|css)$/,
-        // use: ["style-loader", "css-loader", "sass-loader"],
-        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
         test: /\.svg$/,
         use: ["svg-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
       },
     ],
