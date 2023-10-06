@@ -1,0 +1,61 @@
+.one {
+  background-color: aqua;
+  height: 50px;
+  width: 150px;
+  border-radius: 10%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ten {
+  margin-left: 40px;
+  background-color: blueviolet;
+  height: 50px;
+  width: 150px;
+  border-radius: 10%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.one:hover {
+  background-color: rgb(115, 214, 214);
+  transform: scale(1.1);
+  border-radius: 10%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ten:hover {
+  background-color: rgb(175, 106, 240);
+  transform: scale(1.1);
+  border-radius: 10%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 378px) {
+  .one {
+    background-color: aqua;
+    height: 30px;
+    width: 120px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .ten {
+    margin-left: 10px;
+    background-color: blueviolet;
+    height: 30px;
+    width: 120px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

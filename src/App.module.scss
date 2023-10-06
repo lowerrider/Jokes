@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+.content {
+  min-height: 780px;
+}
+
+.loader {
+  text-align: center;
+  z-index: 1;
+}
+
+@media screen and (max-width: 378px) {
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .loader {
+    text-align: center;
+    z-index: 1;
+  }
+}
