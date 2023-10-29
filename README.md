@@ -1,7 +1,7 @@
 # Jokes React App
 [Ссылка на проект/ URL](https://lowerrider.github.io/Jokes/)
 
-##Technology stack
+## Technology stack
 ____
 
 + React
