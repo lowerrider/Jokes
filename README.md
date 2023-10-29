@@ -1,2 +1,2 @@
-# Getting Started with Create React App
-# https://lowerrider.github.io/Jokes/
+# Jokes React App
+[Ссылка на проект/ URL](https://lowerrider.github.io/Jokes/)
