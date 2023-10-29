@@ -9,6 +9,7 @@ ____
 + Redux toolkit
 + SASS
 + RESTful API
++ AXIOS
 + Адаптивная верстка
 + Webpack
 ____
