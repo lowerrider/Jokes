@@ -2,7 +2,7 @@
 [Ссылка на проект/ URL](https://lowerrider.github.io/Jokes/)
 
 ##Technology stack
-__
+____
 
 + React
 + Redux toolkit
