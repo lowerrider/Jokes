@@ -1,4 +1,5 @@
 # Jokes React App
+#### Простой проект для закрепления навыков работы с RESTful API и Redux toolkit. В проекте две кнопки, одна выводит на экран одну шутку, вторая список из десяти шуток.
 [Ссылка на проект/ URL](https://lowerrider.github.io/Jokes/)
 
 ## Technology stack
